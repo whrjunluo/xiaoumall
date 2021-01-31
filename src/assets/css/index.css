@@ -1,0 +1,37 @@
+.box{
+  height: 100%;
+  position: relative;
+
+}
+.FooterNav{
+  border-top: .01rem solid #cccccc;
+  width: 100%;
+  height: .5rem;
+  position: fixed;
+  background-color: #FFFFFF;
+  left: 0;
+  bottom: 0;
+}
+.FooterNav ul{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.FooterNav ul li.active p{
+  color: #FF6040 ;
+}
+.FooterNav ul li img{
+  width: .18rem;
+  height: .2rem;
+  display: block;
+  margin: 0 auto;
+}
+.FooterNav ul li p{
+  font-size: 10px;
+  color: #999999;
+  text-align: center;
+  line-height: .1rem;
+  margin: .05rem;
+}

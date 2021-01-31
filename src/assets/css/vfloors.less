@@ -1,0 +1,227 @@
+.floors {
+  width: 100%;
+  padding-top: .1rem;
+  background-color: #eee;
+
+
+  .floor1 {
+    padding-bottom: .1rem;
+    height: 1.75rem;
+    width: 3.55rem;
+    margin: 0 auto;
+
+    .con-left {
+      float: left;
+      width: 1.75rem;
+      height: 1.75rem;
+
+      background: url(../images/pic/plate/index/kingkong/big.png) no-repeat;
+      margin-right: .05rem;
+
+      .title {
+        display: flex;
+        height: 0.36rem;
+        width: 100%;
+        justify-content: space-between;
+        align-items: center;
+
+        h2 {
+          font-size: .16rem;
+          color: #85A642;
+          margin-left: .1rem;
+        }
+
+        .more {
+          width: 0.8rem;
+          margin-right: .2rem;
+          text-align: left;
+          white-space: nowrap;
+          transform: scale(.5);
+          transform-origin: right center;
+
+          a {
+            font-size: .20rem;
+            vertical-align: -.1rem;
+            color: #333;
+
+          }
+        }
+      }
+
+      .content {
+        padding-left: .1rem;
+
+        .info {
+          color: #B1CC7A;
+          font-size: .16rem;
+          text-align: left;
+          white-space: nowrap;
+          transform: scale(.625);
+          transform-origin: left center;
+          margin-bottom: .05rem;
+        }
+
+        .timer {
+          font-size: 0;
+          height: 0.2rem;
+          width: 0.62rem;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          span {
+            box-sizing: border-box;
+            display: flex;
+            width: calc(0.16rem*2);
+            height: calc(0.18rem*1.6);
+            color: #fff;
+            background-image: linear-gradient(180deg, #85A642 0%, #B1CC7A 100%);
+            font-size: .16rem;
+            text-align: left;
+            white-space: nowrap;
+            transform: scale(.625);
+            transform-origin: left center;
+            text-align: center;
+            align-items: center;
+
+          }
+
+          i {
+            font-size: .12rem;
+            margin-left: -.03rem;
+            margin-right: .02rem;
+          }
+        }
+      }
+    }
+
+    .con-right {
+      float: left;
+      width: 1.75rem;
+      height: 1.75rem;
+
+      .item-right {
+        width: 100%;
+        height: 0.85rem;
+        background-image: url(../images/pic/plate/index/kingkong/small/02.png);
+        padding-top: .1rem;
+        padding-left: .1rem;
+        box-sizing: border-box;
+
+        h2 {
+          font-size: .16rem;
+          color: #AF40FF;
+          margin-bottom: .1rem;
+        }
+
+        .info {
+          color: #CA80FF;
+          font-size: .16rem;
+          text-align: left;
+          white-space: nowrap;
+          transform: scale(.625);
+          transform-origin: left center;
+          margin-bottom: .05rem;
+        }
+
+        .link {
+          margin-top: -.03rem;
+          width: 0.6rem;
+          height: 0.2rem;
+          border-radius: 0 .1rem .1rem 0;
+          line-height: .2rem;
+          padding-left: .05rem;
+          font-size: .12rem;
+          color: #fff;
+          background-image: linear-gradient(180deg, #AF40FF 0%, #F58CFF 100%);
+        }
+      }
+
+      .item-right:first-of-type {
+        margin-bottom: .05rem;
+        background-image: url(../images/pic/plate/index/kingkong/small.png);
+
+        h2 {
+          color: #FF6040;
+        }
+
+        .info {
+          color: #FF6040;
+        }
+
+        .link {
+          background-image: linear-gradient(180deg, #FF6040 0%, #FF9F80 100%);
+        }
+      }
+    }
+  }
+
+  .floor2 {
+    width: 3.55rem;
+    margin: 0 auto;
+
+    .titles {
+      width: 100%;
+      height: 0.33rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      .title {
+        width: 1.62rem;
+        height: 0.33rem;
+        line-height: .33rem;
+        font-size: .14rem;
+        font-weight: 700;
+        color: #999;
+        text-align: center;
+        background-color: #fff;
+        position: relative;
+      }
+
+      .title.current {
+        font-size: .16rem;
+        color: #FF6040;
+      }
+
+      .title1::after {
+        content: '';
+        display: block;
+        width: 0.18rem;
+        height: .34rem;
+        position: absolute;
+        bottom: 0;
+        right: -.18rem;
+        background-image: url(../images/矩形.png);
+      }
+
+      .title2::before {
+        content: '';
+        display: block;
+        width: 0.18rem;
+        height: .34rem;
+        position: absolute;
+        top: 0.01rem;
+        left: -.18rem;
+        background-image: url(../images/矩形.png);
+        transform: rotate(180deg);
+      }
+    }
+
+
+    .content {
+      width: 100%;
+      height: 0.9rem;
+      display: flex;
+      justify-content: space-evenly;
+      align-items: center;
+      background-color: #fff;
+      padding-top: .05rem;
+
+      img {
+        width: 0.8rem;
+        height: 0.8rem;
+      }
+    }
+  }
+}

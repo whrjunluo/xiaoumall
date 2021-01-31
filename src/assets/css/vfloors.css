@@ -1,0 +1,194 @@
+.floors {
+  width: 100%;
+  padding-top: 0.1rem;
+  background-color: #eee;
+}
+.floors .floor1 {
+  padding-bottom: 0.1rem;
+  height: 1.75rem;
+  width: 3.55rem;
+  margin: 0 auto;
+}
+.floors .floor1 .con-left {
+  float: left;
+  width: 1.75rem;
+  height: 1.75rem;
+  background: url(../images/pic/plate/index/kingkong/big.png) no-repeat;
+  margin-right: 0.05rem;
+}
+.floors .floor1 .con-left .title {
+  display: flex;
+  height: 0.36rem;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.floors .floor1 .con-left .title h2 {
+  font-size: 0.16rem;
+  color: #85A642;
+  margin-left: 0.1rem;
+}
+.floors .floor1 .con-left .title .more {
+  width: 0.8rem;
+  margin-right: 0.2rem;
+  text-align: left;
+  white-space: nowrap;
+  transform: scale(0.5);
+  transform-origin: right center;
+}
+.floors .floor1 .con-left .title .more a {
+  font-size: 0.2rem;
+  vertical-align: -0.1rem;
+  color: #333;
+}
+.floors .floor1 .con-left .content {
+  padding-left: 0.1rem;
+}
+.floors .floor1 .con-left .content .info {
+  color: #B1CC7A;
+  font-size: 0.16rem;
+  text-align: left;
+  white-space: nowrap;
+  transform: scale(0.625);
+  transform-origin: left center;
+  margin-bottom: 0.05rem;
+}
+.floors .floor1 .con-left .content .timer {
+  font-size: 0;
+  height: 0.2rem;
+  width: 0.62rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.floors .floor1 .con-left .content .timer span {
+  box-sizing: border-box;
+  display: flex;
+  width: calc(0.16rem*2);
+  height: calc(0.18rem*1.6);
+  color: #fff;
+  background-image: linear-gradient(180deg, #85A642 0%, #B1CC7A 100%);
+  font-size: 0.16rem;
+  text-align: left;
+  white-space: nowrap;
+  transform: scale(0.625);
+  transform-origin: left center;
+  text-align: center;
+  align-items: center;
+}
+.floors .floor1 .con-left .content .timer i {
+  font-size: 0.12rem;
+  margin-left: -0.03rem;
+  margin-right: 0.02rem;
+}
+.floors .floor1 .con-right {
+  float: left;
+  width: 1.75rem;
+  height: 1.75rem;
+}
+.floors .floor1 .con-right .item-right {
+  width: 100%;
+  height: 0.85rem;
+  background-image: url(../images/pic/plate/index/kingkong/small/02.png);
+  padding-top: 0.1rem;
+  padding-left: 0.1rem;
+  box-sizing: border-box;
+}
+.floors .floor1 .con-right .item-right h2 {
+  font-size: 0.16rem;
+  color: #AF40FF;
+  margin-bottom: 0.1rem;
+}
+.floors .floor1 .con-right .item-right .info {
+  color: #CA80FF;
+  font-size: 0.16rem;
+  text-align: left;
+  white-space: nowrap;
+  transform: scale(0.625);
+  transform-origin: left center;
+  margin-bottom: 0.05rem;
+}
+.floors .floor1 .con-right .item-right .link {
+  margin-top: -0.03rem;
+  width: 0.6rem;
+  height: 0.2rem;
+  border-radius: 0 0.1rem 0.1rem 0;
+  line-height: 0.2rem;
+  padding-left: 0.05rem;
+  font-size: 0.12rem;
+  color: #fff;
+  background-image: linear-gradient(180deg, #AF40FF 0%, #F58CFF 100%);
+}
+.floors .floor1 .con-right .item-right:first-of-type {
+  margin-bottom: 0.05rem;
+  background-image: url(../images/pic/plate/index/kingkong/small.png);
+}
+.floors .floor1 .con-right .item-right:first-of-type h2 {
+  color: #FF6040;
+}
+.floors .floor1 .con-right .item-right:first-of-type .info {
+  color: #FF6040;
+}
+.floors .floor1 .con-right .item-right:first-of-type .link {
+  background-image: linear-gradient(180deg, #FF6040 0%, #FF9F80 100%);
+}
+.floors .floor2 {
+  width: 3.55rem;
+  margin: 0 auto;
+}
+.floors .floor2 .titles {
+  width: 100%;
+  height: 0.33rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.floors .floor2 .titles .title {
+  width: 1.62rem;
+  height: 0.33rem;
+  line-height: 0.33rem;
+  font-size: 0.14rem;
+  font-weight: 700;
+  color: #999;
+  text-align: center;
+  background-color: #fff;
+  position: relative;
+}
+.floors .floor2 .titles .title.current {
+  font-size: 0.16rem;
+  color: #FF6040;
+}
+.floors .floor2 .titles .title1::after {
+  content: '';
+  display: block;
+  width: 0.18rem;
+  height: 0.34rem;
+  position: absolute;
+  bottom: 0;
+  right: -0.18rem;
+  background-image: url(../images/矩形.png);
+}
+.floors .floor2 .titles .title2::before {
+  content: '';
+  display: block;
+  width: 0.18rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0.01rem;
+  left: -0.18rem;
+  background-image: url(../images/矩形.png);
+  transform: rotate(180deg);
+}
+.floors .floor2 .content {
+  width: 100%;
+  height: 0.9rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #fff;
+  padding-top: 0.05rem;
+}
+.floors .floor2 .content img {
+  width: 0.8rem;
+  height: 0.8rem;
+}
